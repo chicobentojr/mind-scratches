@@ -1,3 +1,17 @@
-﻿body {
+﻿* {
     font-family: 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
 }
+body {
+    background: no-repeat url('../imagens/bg-index.jpg');
+    background-size: cover;
+    color: white;
+    margin: 0 auto;
+    max-width: 960px;
+}
+header {
+    background-color: rgba(0, 0, 0, 0.50);
+    height: 100px;
+}
+
