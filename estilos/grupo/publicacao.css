@@ -1,0 +1,18 @@
+﻿article{
+    width: 620px;
+    margin: 0 auto;
+}
+
+article h1{
+    color:#303F9F;
+    text-align: center;
+    font-size: 2em;
+    margin: 10px auto;
+}
+
+article p{
+    background-color: rgba(0,0,0,0.5);
+    font-size: 1.4em;
+    text-align: justify;
+    padding: 20px;
+}
