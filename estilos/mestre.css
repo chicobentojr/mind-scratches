@@ -1,0 +1,46 @@
+﻿* {
+    font-family: 'Agency FB', sans-serif;
+    font-size: 1em;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.button{
+    font-size: 1.2em;
+    padding: 10px;
+    height: 20px;
+    display: inline;
+    background-color: rgba(0,0,0,0.50);
+}
+
+.button:hover{
+    background-color: teal;
+}
+
+input {
+    color: black;
+    background-color: rgba(256,256,256,0.90);
+}
+
+input:focus{
+    outline-color:teal;
+}
+
+::-webkit-input-placeholder{
+    color: rgba(0,0,0,0.5);
+    font-size: 1.2em;
+}
+
+header {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.50);
+    height: 120px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+main{
+    margin: 0 auto;
+    max-width: 960px;
+}
