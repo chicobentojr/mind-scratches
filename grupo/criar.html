@@ -5,21 +5,22 @@
     <title>Recorde - 2015</title>
     <link type="text/css" href="../estilos/mestre.css" rel="stylesheet" />
     <link type="text/css" href="../estilos/principal.css" rel="stylesheet" />
+    <link type="text/css" href="../estilos/grupo/criar.css" rel="stylesheet" />
 </head>
 <body>
     <main>
-    <header>
-        <div class="logo"></div>
-        <div class="search bar">
-            <input type="text" placeholder="Digite sua pesquisa..." />
-            <!--<img class="icon search" alt="ícone de pesquisa" src="../imagens/search ico.png" />-->
-        </div>
-        <a href="#" class="sair button">Sair</a>
-        <a href="#" class="notificacoes button icon"><img src="../imagens/notice ico.png" /></a>
-    </header>
+        <header>
+            <div class="logo"></div>
+            <div class="search bar">
+                <input type="text" placeholder="Digite sua pesquisa..." />
+                <!--<img class="icon search" alt="ícone de pesquisa" src="../imagens/search ico.png" />-->
+            </div>
+            <a href="#" class="sair button">Sair</a>
+            <a href="#" class="notificacoes button icon"><img src="../imagens/notice ico.png" /></a>
+        </header>
         <aside id="menu">
             <div class="usuario imagem">
-                <img src="../imagens/user photo original.jpg" alt="usuário imagem" />
+                <img src="../imagens/user_photo.jpg" alt="usuário imagem" />
             </div>
             <nav>
                 <ul>
@@ -32,7 +33,29 @@
             </nav>
         </aside>
         <div id="conteudo">
-
+            <h1>Criação de Grupo</h1>
+            <form>
+                <div class="field">
+                    <label>Nome:</label>
+                    <input type="text" placeholder="Nome" />
+                </div>
+                <div class="field">
+                    <label>Descrição:</label>
+                    <textarea placeholder="Descrição"></textarea>
+                </div>
+                <div class="left field">
+                    <label>Máximo de Integrantes:</label>
+                    <input type="number" placeholder="Máximo de Integrantes" />
+                </div>
+                <div class="right field">
+                    <label>Privacidade:</label>
+                    <select>
+                        <option value="publico">Público</option>
+                        <option value="privado">Privado</option>
+                    </select>
+                </div>
+                <a href="#" class="cadastrar button">Cadastrar</a>
+            </form>
         </div>
     </main>
 </body>
