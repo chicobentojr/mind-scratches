@@ -4,6 +4,7 @@
     color: white;
     margin: 0;
     padding: 0;
+    font-weight: lighter;
 }
 
 body {
@@ -53,4 +54,14 @@ header {
 main{
     margin: 0 auto;
     max-width: 960px;
+}
+select{
+    padding: 10px;
+    margin: 2px;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.1);
+    color: rgba(0,0,0,0.5);
+}
+select option{
+    color:black;
 }

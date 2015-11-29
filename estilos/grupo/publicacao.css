@@ -1,18 +1,107 @@
-﻿article{
+﻿article {
     width: 620px;
     margin: 0 auto;
 }
 
-article h1{
-    color:#303F9F;
-    text-align: center;
-    font-size: 2em;
-    margin: 10px auto;
+    article h1 {
+        color: #303F9F;
+        text-align: center;
+        font-size: 2em;
+        margin: 10px auto;
+    }
+
+    article p {
+        background-color: rgba(0,0,0,0.5);
+        font-size: 1.4em;
+        text-align: justify;
+        padding: 20px;
+    }
+
+#conteudo #observacao {
+    float: left;
+    width: 350px;
+    margin-top: 20px;
 }
 
-article p{
-    background-color: rgba(0,0,0,0.5);
-    font-size: 1.4em;
-    text-align: justify;
-    padding: 20px;
+    #conteudo #observacao textarea {
+        padding: 5px;
+        width: 338px;
+        max-width: 338px;
+        color: black;
+    }
+
+    #conteudo #observacao .enviar.button {
+        float: right;
+    }
+
+    #conteudo #observacao select {
+        float: right;
+        margin: 0;
+        margin-right: 5px;
+        height: 40px;
+        box-sizing: border-box;
+    }
+
+#conteudo #detalhes {
+    float: right;
+    width: 250px;
+    margin-top: 20px;
+    text-align: right;
 }
+
+    #conteudo #detalhes h3{
+        font-size: 2.5em;
+        color: #303F9F;
+        text-decoration: underline;
+    }
+    #conteudo #detalhes .data{
+        color:gray;
+        font-size: 1.2em;
+    }
+    #conteudo #detalhes .acoes.icons{
+        margin-top: 5px;
+    }
+    #conteudo #detalhes .acoes.icons img{
+        width: 20px;
+        height: 20px;
+        float: right;
+        margin-left: 5px;
+    }
+    #conteudo #detalhes .acoes.icons label{
+        float: right;
+        color: black;
+    }
+
+section {
+    margin-top: 180px;
+    clear:both;
+}
+    section h1{
+        color: black;
+        font-size: 2.5em;
+        border-bottom:2px solid gray;
+    }
+    section .consideracao {
+        margin: 20px 0 0 40px;
+    }
+    section .consideracao .autor{
+        float: left;
+        width: 100px;
+    }
+        section .consideracao .autor h3 {
+            color: black;
+            text-decoration: underline;
+            font-size: 1.5em;
+        }
+        section .consideracao .autor .data {
+            color: gray;
+        }
+    section .consideracao textarea{
+        padding: 5px;
+        float: left;
+        color: white;
+        width:450px;
+        max-width:450px;
+        background-color: rgba(0,0,0,0.5);
+        margin-bottom: 30px;
+    }
