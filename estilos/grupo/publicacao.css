@@ -6,7 +6,7 @@
     article h1 {
         color: #303F9F;
         text-align: center;
-        font-size: 2em;
+        font-size: 2.2em;
         margin: 10px auto;
     }
 
@@ -82,11 +82,11 @@ section {
         border-bottom:2px solid gray;
     }
     section .consideracao {
-        margin: 20px 0 0 40px;
+        margin: 20px 0 0 30px;
     }
     section .consideracao .autor{
         float: left;
-        width: 100px;
+        width: 130px;
     }
         section .consideracao .autor h3 {
             color: black;
@@ -100,8 +100,8 @@ section {
         padding: 5px;
         float: left;
         color: white;
-        width:450px;
-        max-width:450px;
+        width:440px;
+        max-width:440px;
         background-color: rgba(0,0,0,0.5);
         margin-bottom: 30px;
     }
