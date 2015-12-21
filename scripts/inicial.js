@@ -30,10 +30,7 @@
         var $dimmer = $('.ajudar.dimmer');
         var $painel = $('.painel.dimmer');
 
-        $painel.remove();
+        $painel.fadeOut().remove();
         $dimmer.fadeOut();
     }
-
-    $('.ajudar.button').click();
-
 });
