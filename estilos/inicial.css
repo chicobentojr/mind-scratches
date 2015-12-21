@@ -58,3 +58,33 @@ aside form .button{
     display: block;
     height: 30px;
 }
+
+.ajudar.dimmer{
+    display: none;
+    width: 700px;
+    min-height: 400px;
+    z-index: 9999;
+    background-color: rgba(255,255,255,0.9);
+    position: fixed;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+    .ajudar.dimmer > *{
+        color: black;
+    }
+    .ajudar.dimmer h1{
+        font-size: 3em;
+    }
+    .ajudar.dimmer p{
+        margin-top: 20px;
+        text-align: justify;
+        font-size: 1.2em;
+    }
+
+.painel.dimmer{
+    position: absolute;
+    top: 0;
+    z-index: 1000;
+    cursor: pointer;
+}
